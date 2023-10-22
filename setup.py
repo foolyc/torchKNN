@@ -56,11 +56,11 @@ def get_extensions():
 
 
 setup(
-    name="vision_sandbox",
+    name="knn_pytorch",
     version="0.1",
-    author="foolyc",
-    url="https://github.com/foolyc/vision-sandbox",
-    description="in-door 3D object detection and pose estimation in pytorch",
+    author="HaoyiZhu",
+    url="https://github.com/HaoyiZhu/torchKNN",
+    description="KNN in pytorch",
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
 )
