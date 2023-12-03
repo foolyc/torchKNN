@@ -9,7 +9,7 @@
 
 // Includes
 #include <cstdio>
-#include "cuda.h"
+#include <cuda.h>
 
 #define IDX2D(i, j, dj) (dj * i + j)
 #define IDX3D(i, j, k, dj, dk) (IDX2D(IDX2D(i, j, dj), k, dk))
